@@ -19,11 +19,11 @@ In the author's official repo, only P3D-199 is released. Besides this deepest P3
 
 1, P3D Resnet trained on Kinetics dataset:
 
- [BaiduYun url](http://note.youdao.com/)
+ [BaiduYun url](http://pan.baidu.com/s/1nv7Q7NF)
  
 2, P3D ResNet trianed on Kinetics Optical Flow (TVL1):
 
- [BaiduYun url](http://note.youdao.com/)
+ [BaiduYun url](http://pan.baidu.com/s/1nv7Q7NF)
 
 
 ### Example Code
@@ -47,7 +47,6 @@ In the author's official repo, only P3D-199 is released. Besides this deepest P3
     ```
     model = P3D63(ST_struc=('A','B'))
     model = P3D131(ST_struc=('C'))
-    
     ```
     
 2. **Flow and RGB models**:
@@ -56,7 +55,6 @@ In the author's official repo, only P3D-199 is released. Besides this deepest P3
     
     ```
     model= P3D199(pretrained=True,modality='Flow')
-    
     ```
 3. **Finetune the model**
 
