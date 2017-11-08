@@ -1,6 +1,6 @@
 # Pseudo-3D Residual Networks
 
-This repo implements the network structure of P3D[1] with PyTorch, pre-trained model weights are converted from caffemodels, which is supported from the author's repo.
+This repo implements the network structure of P3D[1] with PyTorch, pre-trained model weights are converted from caffemodels, which is supported from the [author's repo](https://github.com/ZhaofanQiu/pseudo-3d-residual-networks)
 
 
 
