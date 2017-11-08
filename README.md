@@ -1,6 +1,6 @@
 # Pseudo-3D Residual Networks
 
-This repo implements the network structure of P3D[1] with PyTorch, pre-trained model weights are converted from caffemodels, which is supported from the [author's repo](https://github.com/ZhaofanQiu/pseudo-3d-residual-networks)
+This repo implements the network structure of P3D[1] with PyTorch, pre-trained model weights are converted from caffemodel, which is supported from the [author's repo](https://github.com/ZhaofanQiu/pseudo-3d-residual-networks)
 
 
 
@@ -58,7 +58,7 @@ In the author's official repo, only P3D-199 is released. Besides this deepest P3
     ```
 3. **Finetune the model**
 
-    when finetune the models on your custom dataset, use get_optim_policies() to set different learning speed for different layers. e.g. When dataset is small, Only need to train several deepest layers, set *slow_rate=0.8* in code, and change the following *lr_mult*,*decay_mult*. 
+    when finetuning the models on your custom dataset, use get_optim_policies() to set different learning speed for different layers. e.g. When dataset is small, Only need to train several deepest layers, set *slow_rate=0.8* in code, and change the following *lr_mult*,*decay_mult*. 
 
 
 Reference:
