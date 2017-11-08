@@ -17,11 +17,11 @@ In the author's official repo, only P3D-199 is released. Besides this deepest P3
 ### Pretrained weights
 (Pretrained weights of P3D63 and P3D131 are not yet supported) 
 
-1, P3D Resnet trained on Kinetics dataset:
+1, P3D-199 trained on Kinetics dataset:
 
  [BaiduYun url](http://pan.baidu.com/s/1nv7Q7NF)
  
-2, P3D ResNet trianed on Kinetics Optical Flow (TVL1):
+2, P3D-199 trianed on Kinetics Optical Flow (TVL1):
 
  [BaiduYun url](http://pan.baidu.com/s/1nv7Q7NF)
 
