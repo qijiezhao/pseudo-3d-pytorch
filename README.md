@@ -30,12 +30,13 @@ In the author's official repo, only P3D-199 is released. Besides this deepest P3
 
     from __future__ import print_function
     from p3d_model import *
+    import torch
     
     model = P3D199(pretrained=True,num_classes=400)
     model = model.cuda()
     data=torch.autograd.Variable(torch.rand(10,3,16,160,160)).cuda()   # if modality=='Flow', please change the 2nd dimension 3==>2
     out=model(data)
-    print (out.size(),out)
+    print(out.size(),out)
     
 
 ### Ablation settings
@@ -60,6 +61,8 @@ In the author's official repo, only P3D-199 is released. Besides this deepest P3
 
     when finetuning the models on your custom dataset, use get_optim_policies() to set different learning speed for different layers. e.g. When dataset is small, Only need to train several deepest layers, set *slow_rate=0.8* in code, and change the following *lr_mult*,*decay_mult*. 
 
+-----------------------------------
+please **cite this repo** if you take use of it.
 
 Reference:
 
