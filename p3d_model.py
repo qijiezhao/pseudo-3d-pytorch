@@ -340,6 +340,8 @@ def get_optim_policies(model=None,modality='RGB',enable_pbn=True):
             # later BN's are frozen
             if not enable_pbn or bn_cnt == 1:
                 bn.extend(list(m.parameters()))
+        elif isinstance(m,torch.nn.BatchNorm2d):
+            bn.extend(list(m.parameters()))
         elif len(m._modules) == 0:
             if len(list(m.parameters())) > 0:
                 raise ValueError("New atomic module type: {}. Need to give it a learning policy".format(type(m)))
