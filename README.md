@@ -82,7 +82,7 @@ P3D199 (Kinetics) | 91.2% | 93.4%| 98.3
 #### steps: perframe+watershed
 Step | perframe | localization
 ---|---|---
-P3D199(Sports-1M | 0.462 | 0.25
+P3D199(Sports-1M | 0.451 | 0.25
 P3D199(Kinetics) | 0.569(fused) | 0.307
 
 
