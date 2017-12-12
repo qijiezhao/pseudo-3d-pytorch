@@ -75,7 +75,7 @@ Some of them have outperforms **state of the arts**.
 modality/model | RGB | Flow | Fusion
 ---|---|---|---
 P3D199 (Sports-1M) | 88.5%| -|-
-P3D199 (Kinetics) | 91.2% | 92.4%| 98.3
+P3D199 (Kinetics) | 91.2% | 92.4%| 98.3%
 
 - Action localization(mAP on Thumos14):
   
