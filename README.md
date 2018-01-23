@@ -17,15 +17,16 @@ In the author's official repo, only P3D-199 is released. Besides this deepest P3
 ### Pretrained weights
 (Pretrained weights of P3D63 and P3D131 are not yet supported) 
 
-(New tips: I feel sorry to canceal the download urls of pretrained weights because of some private reasons. For more information you could send emails to me.)
+(tips: I feel sorry to canceal the download urls of pretrained weights because of some private reasons. For more information you could send emails to me.)
+(New tips: Model weights now are available.)
 
 1, P3D-199 trained on Kinetics dataset:
 
- [BaiduYun url]
+ [BaiduYun url](https://pan.baidu.com/s/1o8VFtMy)
  
 2, P3D-199 trianed on Kinetics Optical Flow (TVL1):
 
- [BaiduYun url]
+ [BaiduYun url](https://pan.baidu.com/s/1o8VFtMy)
 
 
 ### Example Code
