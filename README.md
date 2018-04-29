@@ -6,9 +6,9 @@ This repo implements the network structure of P3D[1] with PyTorch, pre-trained m
 ### NEWS！！！
 
 #### First,
-The prepared weights at the following section is transfered from the author's. However, due to a difference of pooling operation bewteen CAFFE and PyTorch, **The same weights will generate different size of feature map.** Anyone that use this repo should know that: this difference will not bring any influence if you use P3D199 to finetune. Of course, you can modify by change the padding value of the pooling layer, then direct inference is also OK. 
+The prepared weights at the following section is transfered from the author's. However, due to a difference of pooling operation between CAFFE and PyTorch, **The same weights will generate different size of feature map.** Anyone that use this repo should know that: this difference will not bring any influence if you use P3D199 to finetune. Of course, you can modify by change the padding value of the pooling layer, then direct inference is also OK. 
 #### Second,
-Recently, I got the opportunity to train the whole Kinetics data, so I am trying to train a model weight that could be directly as a inference module. **I will share the weights after the ddl of Anet18! ** please have a wait.
+Recently, I got the opportunity to train the whole Kinetics data, so I am trying to train a model weight that could be directly as an inference module. **I will share the weights after the ddl of Anet18!** please have a wait.
 
 ### Requirements:
 
