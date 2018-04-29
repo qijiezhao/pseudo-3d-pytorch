@@ -167,7 +167,7 @@ class P3D(nn.Module):
         self.bn1 = nn.BatchNorm3d(64) # bn1 is followed by conv1
         self.cnt=0
         self.relu = nn.ReLU(inplace=True)
-        self.maxpool = nn.MaxPool3d(kernel_size=(2, 3, 3), stride=2, padding=0)       # pooling layer for conv1.
+        self.maxpool = nn.MaxPool3d(kernel_size=(2, 3, 3), stride=2, padding=(0,1,1))       # pooling layer for conv1.
         self.maxpool_2 = nn.MaxPool3d(kernel_size=(2,1,1),padding=0,stride=(2,1,1))   # pooling layer for res2, 3, 4.
 
         self.layer1 = self._make_layer(block, 64, layers[0], shortcut_type)
