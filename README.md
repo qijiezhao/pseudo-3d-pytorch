@@ -3,13 +3,6 @@
 This repo implements the network structure of P3D[1] with PyTorch, pre-trained model weights are converted from caffemodel, which is supported from the [author's repo](https://github.com/ZhaofanQiu/pseudo-3d-residual-networks)
 
 
-### NEWS！！！
-
-#### First,
-The prepared weights at the following section is transfered from the author's. However, due to a difference of pooling operation between CAFFE and PyTorch, **The same weights will generate different size of feature map.** Anyone that use this repo should know that: this difference will not bring any influence if you use P3D199 to finetune. Of course, you can modify by change the padding value of the pooling layer, then direct inference is also OK(code is updated already). 
-#### Second,
-Recently, I got the opportunity to train the whole Kinetics data, so I am trying to train a more powerful p3d modelweight based on input size of 3x16x224x224. **I will share the weights after the ddl of Anet18!** please have a wait.
-
 ### Requirements:
 
 - pytorch
@@ -34,6 +27,10 @@ In the author's official repo, only P3D-199 is released. Besides this deepest P3
 
  [BaiduYun url](https://pan.baidu.com/s/1o8VFtMy)
 
+3, P3D-199 trained on Kinetics600, RGB, 224&299:
+
+ [BaiduYun url](https://pan.baidu.com/s/1xAfTcqVX1qgoArGzRbI4SQ)
+ (Change the value of GAP kernel from 5 to 7 if 224, to 9 if 299)
 
 ### Example Code
 
