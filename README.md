@@ -22,14 +22,17 @@ In the author's official repo, only P3D-199 is released. Besides this deepest P3
 1, P3D-199 trained on Kinetics dataset:
 
  [BaiduYun url](https://pan.baidu.com/s/1o8VFtMy)
+ [Google Drive](https://drive.google.com/drive/folders/1u_l-yvhS0shpW6e0tCiqPE7Bd1qQZKdD)
  
 2, P3D-199 trianed on Kinetics Optical Flow (TVL1):
 
  [BaiduYun url](https://pan.baidu.com/s/1o8VFtMy)
+ [Google Drive](https://drive.google.com/drive/folders/1u_l-yvhS0shpW6e0tCiqPE7Bd1qQZKdD)
 
 3, P3D-199 trained on Kinetics600, RGB, 224&299:
 
  [BaiduYun url](https://pan.baidu.com/s/1xAfTcqVX1qgoArGzRbI4SQ)
+ [Google Drive](https://drive.google.com/drive/folders/1u_l-yvhS0shpW6e0tCiqPE7Bd1qQZKdD)
  (Change the value of GAP kernel from 5 to 7 if 224, to 9 if 299)
 
 ### Example Code
